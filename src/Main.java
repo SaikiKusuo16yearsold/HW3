@@ -67,6 +67,7 @@ public class Main {
             System.out.println("Вагон полностью забит");
         }
 
+
         int one = 10;
         int two = 11;
         int three = 4;
