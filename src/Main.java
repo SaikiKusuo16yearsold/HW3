@@ -7,12 +7,12 @@ public class Main {
         long d = 300000;
         float e = 1f;
         double f = 2000f;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
+        System.out.println("Тип переменной byte " + a);
+        System.out.println("Тип переменной short " + b);
+        System.out.println("Тип переменной int" + c);
+        System.out.println("Тип переменной long " + d);
+        System.out.println("Тип переменной float " + e);
+        System.out.println("Тип переменной double " + f);
 
 
         float first = 27.12f;
@@ -23,23 +23,23 @@ public class Main {
         short sixth = 27897;
         byte seventh = 67;
 
-        byte ludmilaPavlovna = 23;
+        float ludmilaPavlovna = 23f;
         byte annaSergeevna = 23;
         byte ekaterinaAndreevna = 30;
-        int allStudents = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
-        int forOneStudent = 480 / allStudents;
+        float allStudents = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
+        float forOneStudent = 480 / allStudents;
         System.out.println("На каждого ученика рассчитано " + forOneStudent + " листов бумаги");
 
 
         byte twentyMinutes = 20;
-        int day = twentyMinutes * 72;
-        int threeDays = day * 3;
-        int oneMonth = threeDays * 10;
+        int day = 60 * 24;
+        int threeDays = 60 * 24 * 3;
+        int oneMonth = 60 * 24 * 30;
         byte speed = 8;
-        System.out.println("За 20 минут машина произвела " + twentyMinutes * speed + " бутылок");
-        System.out.println("За сутки  машина произвела " + day * speed + " бутылок");
-        System.out.println("За 3 дня минут машина произвела " + threeDays * speed + " бутылок");
-        System.out.println("За 1 месяц минут машина произвела " + oneMonth * speed + " бутылок");
+        System.out.println("За 20 минут машина произвела " + twentyMinutes * speed + " штук бутылок");
+        System.out.println("За сутки  машина произвела " + day * speed + " штук бутылок");
+        System.out.println("За 3 дня минут машина произвела " + threeDays * speed + " штук бутылок");
+        System.out.println("За 1 месяц минут машина произвела " + oneMonth * speed + " штук бутылок");
 
 
         byte white = 2;
