@@ -48,8 +48,7 @@ public class Main {
         int allСlasses = allBanks / (white + brown);
         int allWhite = allBanks / (white + brown) * white;
         int allBrown = allBanks / (white + brown) * brown;
-        System.out.println("В школе, где " + allСlasses + " классов, нужно " + allWhite
-                + " банок белой краски и " + allBrown + " банок коричневой краски");
+        System.out.println("В школе, где " + allСlasses + " классов, нужно " + allWhite + " банок белой краски и " + allBrown + " банок коричневой краски");
 
         int bananas = 5 * 80;
         int milk = 200 / 100 * 105;
@@ -64,9 +63,7 @@ public class Main {
         int firstDays = weight / firstVariant;
         int secondDays = weight / secondVariant;
         int middleVariant = (secondDays + firstDays) / 2;
-        System.out.println("Если сбрасывать по 500 грам в день, то понадобиться " + firstDays +
-                " дней, если по 250 в день, то понадобиться " + secondDays + " дней  в среднем понадобиться " +
-                middleVariant + " дней");
+        System.out.println("Если сбрасывать по 500 грам в день, то понадобиться " + firstDays + " дней, если по 250 в день, то понадобиться " + secondDays + " дней  в среднем понадобиться " + middleVariant + " дней");
 
 
         int mariaSalary = 67760;
