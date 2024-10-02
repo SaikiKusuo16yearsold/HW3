@@ -52,7 +52,6 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + childAge + " , то ему можно кататься на аттракционе в сопровождении");
         }
 
-
         byte totalSeats = 102;
         byte occupiedPlaces = 30;
         byte seats = 60;
